@@ -6,15 +6,15 @@ hidden = [".config"]
 
 
 
-[unitTest]
+[WASEEMJUTT]
 language = "nodejs"
 
 onBoot = "npm i || yarn"
 
-[nix]
+[WASEEMJUTT]
 channel = "stable-23_05"
 
-[deployment]
+[WASEEMJUTT]
 run = ["yarn","start"]
 deploymentTarget = "cloudrun"
 ignorePorts = false
